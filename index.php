@@ -34,7 +34,7 @@
 <body class="bg-light" >
     <nav class="navbar navbar-expand-lg nav-light bg-white px-lg-3 px-lg-2 shodow-sm sticky-top ">
         <div class="container-fluid">
-            <a class="navbar-brand"  href="index.php">HOTEL</a>
+            <a class="navbar-brand"  href="index.php"><img src="images/headerlogo.png" alt="" width="120px" height="33px"></a>
             <button class="navbar-toggler shodow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -385,14 +385,6 @@
                 </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-            
             <div class="col-lg-12 text-center mt-5">
                 <a href="#" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">More Rooms >>></a>
             </div>
@@ -431,12 +423,156 @@
         </div>    
     </div>
 
-  <!-- testimonial section -->
-   <div class="container">
-    <div class="row">
-
+  <!-- testimonials section -->
+     <div>
+        <h2 class="mt-3 pt-4 mb-4 text-center fw-bold h-font">OUR TESTIMONIALS</h2>
+     </div>
+    <div class="container mb-5">
+        <div class="swiper swiper-testimonial">
+            <div class="swiper-wrapper mb-5">
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4 ">
+                        <img src="images/features/star.svg" alt="images" width="30px">
+                        <h6 class="m-0 ms-2">Random User-1</h6>
+                    </div>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe distinctio, quod culpa velit beatae dignissimos?
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4 ">
+                        <img src="images/features/star.svg" alt="images" width="30px">
+                        <h6 class="m-0 ms-2">Random User-2</h6>
+                    </div>
+                    <p>
+                    The staff was friendly and attentive, although there were a couple of minor issues with the room’s air conditioning. It wasn’t cooling properly, but I reported it to the front desk, and they sent someone to fix it promptly. I also enjoyed the hotel’s restaurant – the breakfast buffet was delicious with a wide range of options.
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4 ">
+                        <img src="images/features/star.svg" alt="images" width="30px">
+                        <h6 class="m-0 ms-2">Random User-3</h6>
+                    </div>
+                    <p>
+                    I had an amazing experience at The Grand Lakeside Resort. The location is simply stunning, right by the lake with breathtaking views. The room was spacious, clean, and well-maintained, with a comfortable bed and all the amenities I needed for a relaxing stay. The highlight for me was definitely the outdoor terrace where I could enjoy my morning coffee while watching the sunrise over the water.
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4 ">
+                        <img src="images/features/star.svg" alt="images" width="30px">
+                        <h6 class="m-0 ms-2">Random User-4</h6>
+                    </div>
+                    <p>
+                    The staff was friendly and attentive, although there were a couple of minor issues with the room’s air conditioning.
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
-   </div>
+    
+  <!-- about section -->
+    <div>
+        <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">REACH US </h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 ">
+            <iframe class="w-100 rounded " height="320" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58005.2870707335!2d89.65110878842167!3d24.68116502962526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdbd650afb2e1d%3A0xa441d80388e5a1ea!2sNatuar%20Para!5e0!3m2!1sen!2sbd!4v1731520086502!5m2!1sen!2sbd"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-4 col-lg-4">
+                <div class="bg-white p-4 rounded mb-4">
+                    <h5>Call Us</h5>
+                    <a href="tel: +01811111111" class="d-inline-block mb-2 text-decoration-none text-dark"><i class="bi bi-telephone-outbound text-danger"></i> +018111122222</a>
+                    <br>
+                    <a href="tel: +01811111111" class="d-inline-block text-decoration-none text-dark"><i class="bi bi-telephone-outbound text-danger"></i> +016345622222</a>
+                </div>
+                <div class="bg-white p-4 rounded mb-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="d-inline-block mb-3">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                          <i class="bi bi-twitter-x me-1"></i>  Twitter
+                        </span>
+                    </a>
+                    <br>
+                    <a href="#" class="d-inline-block mb-3">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                        <i class="bi bi-linkedin me-1"></i>  Linkedin
+                        </span>
+                    </a>
+                     <br>
+                    <a href="#" class="d-inline-block">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                          <i class="bi bi-facebook me-1"></i>  Facebook
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container-fluid">
+    <hr class="bold">
+        <div class="row">
+            <div class="col-lg-4 p-4">
+                <a href="img"><img src="images/footerlogo.png" width="200px" style="border-radius: 8px;" alt=""></a>
+                <h3 class="fw-bold fs-3 mb-2"> Tom Hotel</h3>
+                <p>This review provides a balanced opinion on the hotel, highlighting both positive aspects and areas for improvement.</p>
+            </div>
+            <div class="col-lg-4 p-4">
+                <h4 class="mb-3">Links </h4>
+                <a href="#" class="d-line-block mb-2 text-dark text-decoration-none">Home</a><br>
+                <a href="#" class="d-line-block mb-2 text-dark text-decoration-none">Rooms</a><br>
+                <a href="#" class="d-line-block mb-2 text-dark text-decoration-none">Facilities</a><br>
+                <a href="#" class="d-line-block mb-2 text-dark text-decoration-none">Contacts Us</a><br>
+                <a href="#" class="d-line-block mb-2 text-dark text-decoration-none">Abouts</a><br>
+            </div>
+            <div class="col-lg-4 p-4">
+                <h4 class="mb-3">Follow Us </h4>
+                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                <i class="bi bi-twitter-x me-1"></i> Twitter
+                </a><br>
+                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                <i class="bi bi-linkedin"></i> Linkedin
+                </a><br>
+                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                <i class="bi bi-facebook"></i> Facebook
+                </a><br>
+                <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+                <i class="bi bi-instagram"></i> instagram
+                </a><br>
+            </div>
+        </div>
+    </div>
+     <div>
+        <h5 class="text-center bg-dark text-white p-3 m-0">Design and Developmet @ MD TOMAS UDIN</h5>
+     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -449,6 +585,23 @@
       autoplay: {
         delay:1500,
         disableOnInteraction:false,
+      },
+    });
+    var swiper = new Swiper(".swiper-testimonial", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        loop:true,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
       },
     });
   </script>
